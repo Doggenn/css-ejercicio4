@@ -1,0 +1,148 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(176, 176, 170);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.link {
+    text-decoration: none;
+}
+.b-header {
+    border-bottom: 75%;
+    display: flex;
+    flex-direction: column;
+
+}
+.b-info__logo {
+    max-width: 150px;
+    margin: 5px;
+}
+.b-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: white; */
+}
+.b-info__a {
+    padding-inline: 20px;
+}
+.b-info__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%;
+    list-style: none;
+    padding-right: px;
+}
+.b-navbar {
+    width: 100%;
+    background-color: white;
+}
+.b-navbar__menu {
+    width: 10px;
+    background-color: rgba(0, 128, 0, 0.154);
+}
+.b-navbar__ul {
+    display: flex;
+    width: 96%;
+    padding: 15px;
+    justify-content: space-evenly;
+    list-style: none;
+    /* background-color: white; */
+    text-align: center;
+    margin: 0px;
+}
+.b-options {
+    background-color: rgb(0, 175, 0);
+    color: white;
+    size-adjust: 12px;
+    border-radius: 0px;
+    padding: 10px 5px;
+}
+.b-shop {
+    
+    background-color: rgb(176, 176, 170); /* Color de fondo */
+    border-top: 1px solid #000;
+    padding-top: 0px; /* Relleno interno de la caja */
+    margin: 0px; 
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Alinea horizontalmente al centro */
+    align-items: center; /* Alinea verticalmente al centro */
+    width: auto%; /* Ancho al 100% del contenedor */
+    height: 80%;/* Margen alrededor de la caja */
+}
+.b-shop__box {
+    
+    background-color: rgb(176, 176, 170);/* Color de fondo */
+    border-right: 1px  solid #000;
+    border-left: 1px  solid #000;
+    /* padding: 20px; /* Relleno interno de la caja */
+    margin-top: 0px; 
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Alinea horizontalmente al centro */
+    align-items: center; /* Alinea verticalmente al centro */
+    width: 80%; /* Ancho al 100% del contenedor */
+    height: 80%;/* Margen alrededor de la caja */
+    flex-wrap: wrap!important;
+}
+.b-shop__options {
+    width: 40%; /* Ancho de la caja */
+    height: 494px; /* Altura de la caja */
+    background-color: #f0f0f0; /* Color de fondo */
+    border: 2px solid #000;
+    padding: 0px; /* Relleno interno de la caja */
+    margin: 20px; /* Margen alrededor de la caja */
+    
+}
+.pic {
+    width: 100%;
+}
+h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+p {
+    margin: 10px;
+}
+ button {
+    display: flex;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 15px;
+    background-color: white;
+    border-color: darkgreen;
+    color: darkgreen;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+ }
+ .b-shop__options-cost {
+    font-size: 20px;
+    color: darkgreen;
+ }
+ .b-shop__options-price {
+    font-size: 45px;
+    color: darkgreen;
+ }
+ .b-flex {
+    display: flex;
+    align-items: center;
+ }
+ .b-flex__center {
+    align-items: center;
+ }
+ .b-flex__l {
+    justify-content: flex-end;
+ }
+ .b-flex__column {
+    flex-direction: column;
+ }
